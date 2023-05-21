@@ -1,4 +1,8 @@
 
 export const fizzBuzz = (start: number, end: number) => {
-    return true
+    let arrResult = [];
+    for ( ; start < end ; start++) {
+        arrResult.push(start);
+    }
+    return arrResult;
 };
